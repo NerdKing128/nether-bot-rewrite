@@ -1,1 +1,4 @@
-import { Client, Intents } from 'discord.js';
+import NerdClient from './client/Client'
+const client = new NerdClient()
+
+client.start()
