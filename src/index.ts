@@ -1,4 +1,4 @@
-import NerdClient from './client/Client'
-const client = new NerdClient()
+import NerdClient from './structures/Client';
+const client = new NerdClient();
 
-client.start()
+client.start();
